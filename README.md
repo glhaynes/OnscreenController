@@ -22,7 +22,7 @@ enum Button {
     case up, down, left, right, select, start, b, a
 }
 
-struct MyView {
+struct MyView: View {
     @State private var pressedButtons: Set<Button> = []
 
     var body: some View {
