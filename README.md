@@ -8,7 +8,7 @@ It is primarly written using SwiftUI but uses some UIKit internally for gesture 
 
 The branch `feature/addVisionOSSupport` adds visionOS support, though this has only been minimally tested.
 
-![OnscreenController on iPhone 14 Pro Simulator](Screenshots/OnscreenController-Light-iPhone_14_Pro_Simulator.png "OnscreenController on iPhone 14 Pro Simulator")
+![OnscreenController in landscape orientation, dark mode, iPhone 14 Pro Simulator](Screenshots/Dark-LandscapeLeft-iPhone_14_Pro_Simulator.png "Landscape, dark mode, iPhone 14 Pro Simulator")
 
 ## Why use it when [`GCVirtualController`](https://developer.apple.com/documentation/gamecontroller/gcvirtualcontroller) exists?
 I built `OnscreenController` while making Blackbox because I found `GCVirtualController` unsatisfactory. When attempting to use it in a SwiftUI app, I could not get it to lay out in a functional way in some configurations: in particular, iPhones in portrait mode. I also had trouble with `GCVirtualController` not responding correctly to device orientation and not layering correctly when using a custom `Scene`. This was on Xcode 14/the iOS 16 SDK; subsequent releases of the OS/SDK/Xcode may mitigate these issues.
