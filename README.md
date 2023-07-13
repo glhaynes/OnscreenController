@@ -1,11 +1,11 @@
 # OnscreenController
-SwiftUI virtual game controller for iOS
+### SwiftUI virtual game controller for iOS
 
-`OnscreenController` provides a “virtual” game controller that can be included in iOS and iPadOS apps that use SwiftUI. It produces a `View` with a similar button layout to that of the Nintendo Entertainment System (NES). It takes a collection of callbacks, one for each button on the controller, called when that button starts or stops being pressed. 
+`OnscreenController` provides a “virtual” onscreen game controller that can be included in iOS or iPadOS apps that use SwiftUI. It produces a `View` containing buttons similar to those on the Nintendo Entertainment System (NES)’s controller.
 
-It is primarly written using SwiftUI but uses some UIKit internally for gesture recognition. It requires a minimum of Xcode 14 and iOS 16 or iPadOS 16.
+It takes a callback for each button on the controller (called when that button starts or stops being pressed), making it easy to integrate into a project. `OnscreenController` is a SwiftUI component that uses some UIKit internally for gesture recognition. It requires a minimum of Xcode 14 and iOS 16 or iPadOS 16.
 
-`OnscreenController` is used in Blackbox, a forthcoming open source Swift NES emulator, but is available under MIT license for use in other projects.
+`OnscreenController` is used in the [Blackbox](https://github.com/glhaynes/Blackbox) NES emulator and is available under MIT license for use in other projects. Both `OnscreenController` and [Blackbox](https://github.com/glhaynes/Blackbox) are written by [Grady Haynes](mailto:grady@wordparts.com) and are freely available under the MIT license.
 
 The branch `feature/addVisionOSSupport` adds visionOS support, though this has only been minimally tested.
 
